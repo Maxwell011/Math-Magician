@@ -1,5 +1,3 @@
-// import { render } from '@testing-library/react';
-
 import { Component } from 'react';
 import DisplayScreen from './displayScreen';
 import NumericKeys from './numericKeys';
