@@ -1,22 +1,17 @@
 /*eslint-disable*/
-import { Component } from 'react';
+import React from 'react';
 
-class DisplayScreen extends Component {
-  constructor(props) {
-    super(props);
-  }
+const DisplayScreen = (props) => {
+  const { total, next, operation } = props;
+  return (
+    <div className='displayscreen-cont'>
+      <span className='display-screen'>
+        {total}
+        {operation}
+        {next}
+      </span>
+    </div>
+  );
+};
 
-  render() {
-    const { total, next, operation } = this.props;
-    return (
-      <div className='displayscreen-cont'>
-        <span className='display-screen'>
-          {total}
-          {operation}
-          {next}
-        </span>
-      </div>
-    );
-  }
-}
 export default DisplayScreen;
