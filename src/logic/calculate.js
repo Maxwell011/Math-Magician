@@ -47,16 +47,20 @@ export default function calculate(obj, buttonName) {
   }
 
   if (buttonName === '.') {
+    // .  =>
     if (obj.next) {
       if (obj.next.includes('.')) {
+        // 0
         return { ...obj };
       }
       return { ...obj, next: `${obj.next}.` };
     }
     if (obj.operation) {
+      // 0.7 *
       return { ...obj, next: '0.' };
     }
     if (obj.total) {
+      // 0
       if (obj.total.includes('.')) {
         return {};
       }
@@ -86,14 +90,6 @@ export default function calculate(obj, buttonName) {
     }
     return {};
   }
-
-  // Button must be an operation
-
-  // When the user presses an operation button without having entered
-  // a number first, do nothing.
-  // if (!obj.next && !obj.total) {
-  //   return {};
-  // }
 
   // User pressed an operation after pressing '='
   if (!obj.next && obj.total && !obj.operation) {
