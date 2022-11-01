@@ -4,7 +4,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Inter", sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 html {
@@ -27,9 +27,7 @@ html {
   max-inline-size: 22rem;
   border-radius: 10px;
   overflow: hidden;
-  box-shadow:
-    0 3px 6px 0 rgba(0, 0, 0, 0.15),
-    0 2px 4px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.15), 0 2px 4px 0 rgba(0, 0, 0, 0.12);
 }
 
 .displayscreen-cont {
@@ -85,4 +83,18 @@ html {
 
 .col-span-2 {
   grid-column: 1 / 3;
+}
+
+.main-heading {
+  font-family: 'Fira Sans', sans-serif;
+  display: flex;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  justify-content: center;
+}
+
+p {
+  font-family: 'Fira Sans', sans-serif;
+  width: 70%;
+  margin: auto;
 }
