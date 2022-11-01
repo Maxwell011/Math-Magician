@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fira+Sans:ital@1&display=swap');
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background: darkorange;
+  height: 100px;
+  align-items: center;
+}
+
+.nav-ul {
+  display: flex;
+}
+
+h1 {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Fira Sans', sans-serif;
+}
