@@ -11,6 +11,9 @@ Single Page Calculator application developed using React. Calculator does simple
 - Frameworks : React, Webpack
 - Technologies : Visual Studio Code, NPM, Chrome, Git, GitHub, Linters
 
+## Live Demo
+> [Demo](https://math-magician-pink.vercel.app/)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
